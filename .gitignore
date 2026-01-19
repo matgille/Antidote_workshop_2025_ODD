@@ -10,4 +10,6 @@
 *.out
 *.vrb
 *.xdv
+*.bcf
+*.snm
 _minted-main/

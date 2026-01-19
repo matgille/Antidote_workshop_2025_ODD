@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Manuscript JB/116/010/001</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Encoding of manuscript JB/116/010/001 by Jeremy Bentham, for
+               training purposes.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Adapted from the <ref
+                  target="https://www.teibyexample.org/exist/examples/TBED06v00.htm"
+                  >TEI by Example Website</ref>. The source can be found <ref
+                  target="https://transcribe-bentham.ucl.ac.uk/td/JB/116/010/001?action=edit"
+                  >here</ref>. The image of the page is <ref
+                  target="https://www.teibyexample.org/exist/examples/TBED06v00.htm#gallery-1"
+                  >here</ref>.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <!-- Steps: 
+   1. Using ROMA, create an ODD adapted to this particular document. Get rid of any module / element that is not needed.
+   2. Transform the ODD into a RNG/RNC schema and test the file against this schema.
+   3. Fine-tune your ODD directly in the file: 
+         a. the divisions must be typed and numbered. Division types values should be a closed list.
+         b. the line begining elements should indicate whether the element breaks a word or not
+         c. Find one element to constrain at attribute level. 
+   4. Optional. Create a small mockup documentation in your ODD, and transform it into HTML.
+   NB: feel free to use your own material if you prefer. In this case, choose 3 rules you want to implement,
+   and create a small documentation of your encoding principles.
+   -->
+   <text>
+      <body>
+         <div>
+            <p>home system neglect is as impossible, as attention is in<lb/> the
+                  <del>other foreign</del> one.</p>
+            <p>Among savages, when to a certain degree a man<lb/> is sick in
+               body, he is cast <del>out of society, and then</del>
+               <add>forth, <add>
+                     <del>turned adrift</del>
+                  </add> and thought no more of <add>
+                     <del><gap/> out of</del>
+                  </add>
+               </add>
+               <lb/>
+               <del>no more thought of.</del>
+               <add>
+                  <del>sight or from thenceforth out of mind.</del>
+               </add>
+               <del>Among nations</del>
+               <add>In a nation,</add> civilized in oth<lb/>er respects, the
+               same barbarity is <add>still</add> shown to this <note>at least
+                  equally unable class of patients, in whose case the
+                     <del>disorder</del>
+               </note>
+               <del>patient,</del>
+               <lb/>
+               <del>
+                  <gap/>
+               </del>
+               <add>the seat of</add> disorder <del>has</del>
+               <add>is</add> in the mind. Not indeed to every<lb/>
+               <del>order</del>
+               <add>division</add> in this last class <del>of patients</del> .
+               For <add>
+                  <unclear>upon</unclear>
+               </add> patients labouring<lb/> under <add>
+                  <gap/>
+               </add> insanity, known <add>
+                  <del><unclear>or</unclear> called</del>
+               </add> and characterized by that name,<lb/> no man has yet
+                  <del>thought</del>
+               <add><del>proposed</del> prescribed</add> a voyage to New
+               South<lb/> Wales. The inefficacy of such a prescription
+               however<lb/> could not be more <sic>compleat</sic> , in the case
+               of that <del>class</del> description of <lb/> patients, than in
+               has hitherto been, and from the nature of<lb/> the case ever must
+               be, in the instance of <del><unclear>that</unclear>
+                  <gap/> class</del>
+               <add>the other description</add>
+               <lb/> to which it continues to be applied.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

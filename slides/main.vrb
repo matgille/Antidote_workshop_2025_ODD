@@ -1,0 +1,11 @@
+\frametitle{Fine-tune the validation with Schematron}
+\begin{minted}{xml}
+ <sch:pattern>
+      <sch:title>Foliation checks</sch:title>
+      <sch:rule context="pb">
+         <sch:assert
+            test="matches(@n, '\d+[vr]')"
+            >Something is wrong with the foliation of this page beggining. Have you forgotten the page side indication ?</sch:assert>
+      </sch:rule>
+   </sch:pattern>
+\end{minted}

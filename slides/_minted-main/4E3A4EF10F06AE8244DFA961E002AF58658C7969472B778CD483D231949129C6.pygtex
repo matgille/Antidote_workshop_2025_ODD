@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{+w}{ }\PYG{n+nt}{\PYGZlt{}sch:pattern\PYGZgt{}}
+\PYG{+w}{      }\PYG{n+nt}{\PYGZlt{}sch:title\PYGZgt{}}Foliation\PYG{+w}{ }checks\PYG{n+nt}{\PYGZlt{}/sch:title\PYGZgt{}}
+\PYG{+w}{      }\PYG{n+nt}{\PYGZlt{}sch:rule}\PYG{+w}{ }\PYG{n+na}{context=}\PYG{l+s}{\PYGZdq{}pb\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}}
+\PYG{+w}{         }\PYG{n+nt}{\PYGZlt{}sch:assert}
+\PYG{+w}{            }\PYG{n+na}{test=}\PYG{l+s}{\PYGZdq{}matches(@n, \PYGZsq{}\PYGZbs{}d+[vr]\PYGZsq{})\PYGZdq{}}
+\PYG{+w}{            }\PYG{n+nt}{\PYGZgt{}}Something\PYG{+w}{ }is\PYG{+w}{ }wrong\PYG{+w}{ }with\PYG{+w}{ }the\PYG{+w}{ }foliation\PYG{+w}{ }of\PYG{+w}{ }this\PYG{+w}{ }page\PYG{+w}{ }beggining.\PYG{+w}{ }Have\PYG{+w}{ }you\PYG{+w}{ }forgotten\PYG{+w}{ }the\PYG{+w}{ }page\PYG{+w}{ }side\PYG{+w}{ }indication\PYG{+w}{ }?\PYG{n+nt}{\PYGZlt{}/sch:assert\PYGZgt{}}
+\PYG{+w}{      }\PYG{n+nt}{\PYGZlt{}/sch:rule\PYGZgt{}}
+\PYG{+w}{   }\PYG{n+nt}{\PYGZlt{}/sch:pattern\PYGZgt{}}
+\end{Verbatim}

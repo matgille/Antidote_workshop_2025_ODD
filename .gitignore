@@ -5,7 +5,9 @@
 *.fls
 *.log
 *.nav
+*.run.xml
 *.toc
+*.out
 *.vrb
 *.xdv
 _minted-main/

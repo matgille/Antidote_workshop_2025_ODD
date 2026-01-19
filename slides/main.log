@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022/Debian) (preloaded format=xelatex 2025.6.2)  2 DEC 2025 22:04
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022/Debian) (preloaded format=xelatex 2025.6.2)  19 JAN 2026 19:39
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2138,14 +2138,16 @@ File: img/example_ODD.png Graphic file (type bmp)
 <img/example_ODD.png>
  [64
 
+] [65
+
 ]
 File: img/final_ODD.png Graphic file (type bmp)
 <img/final_ODD.png>
 
-Overfull \vbox (13.0012pt too high) detected at line 662
+Overfull \vbox (13.0012pt too high) detected at line 670
  []
 
-[65
+[66
 
 ]
 \openout4 = `main.vrb'.
@@ -2154,18 +2156,18 @@ Overfull \vbox (13.0012pt too high) detected at line 662
 \openout5 = `main.pyg'.
 
 
-(./_minted-main/4E3A4EF10F06AE8244DFA961E002AF58658C7969472B778CD483D231949129C
+(./_minted-main/544915EAB650B32E512776A266AD6C4B658C7969472B778CD483D231949129C
 6.pygtex
 LaTeX Font Info:    Trying to load font information for TS1+lmtt on input line 
-6.
+7.
  (/usr/share/texmf/tex/latex/lm/ts1lmtt.fd
 File: ts1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-))) [66
+))) [67
 
 ] (./main.toc)
-[67
+[68
 
-] [68
+] [69
 
 ]
 File: beamericonarticle.pdf Graphic file (type pdf)
@@ -2173,10 +2175,10 @@ File: beamericonarticle.pdf Graphic file (type pdf)
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
 LaTeX Font Info:    Font shape `T1/fbb-TLF/m/it' will be
-(Font)              scaled to size 6.0pt on input line 703.
+(Font)              scaled to size 6.0pt on input line 713.
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
- [69
+ [70
 
 ]
 \tf@nav=\write9
@@ -2198,12 +2200,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 53943 strings out of 476775
- 1247555 string characters out of 5808213
- 2148678 words of memory out of 5000000
- 73053 multiletter control sequences out of 15000+600000
- 632061 words of font info for 97 fonts, out of 8000000 for 9000
+ 53947 strings out of 476775
+ 1247598 string characters out of 5808213
+ 2148810 words of memory out of 5000000
+ 73056 multiletter control sequences out of 15000+600000
+ 632380 words of font info for 98 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  128i,15n,122p,1246b,5617s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.xdv (69 pages, 301224 bytes).
+Output written on main.xdv (70 pages, 304244 bytes).

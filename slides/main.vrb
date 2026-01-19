@@ -1,11 +1,13 @@
 \frametitle{Fine-tune the validation with Schematron}
 \begin{minted}{xml}
- <sch:pattern>
-      <sch:title>Foliation checks</sch:title>
+<!--The following element can be a child of any elementSpec node-->
+<constraintSpec xmlns:sch="http://purl.oclc.org/dsdl/schematron" scheme="isoschematron">
+    <constraint>
       <sch:rule context="pb">
          <sch:assert
             test="matches(@n, '\d+[vr]')"
-            >Something is wrong with the foliation of this page beggining. Have you forgotten the page side indication ?</sch:assert>
+            >Something is wrong with the foliation of this page. Have you forgotten the page side indication ?</sch:assert>
       </sch:rule>
-   </sch:pattern>
+    </constraint>
+</constraintSpec>
 \end{minted}

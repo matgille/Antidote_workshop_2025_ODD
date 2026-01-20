@@ -103,7 +103,8 @@
           include="teiHeader fileDesc titleStmt publicationStmt sourceDesc"/>
 
         <!-- required core elements (p and title for use in titleStmt) -->
-        <moduleRef key="core" include="p title add del gap lb unclear ref note"/>
+        <moduleRef key="core"
+          include="p title add del gap lb pb unclear ref note sic"/>
 
         <!-- required textstructure elements (TEI, text, and body) -->
         <moduleRef key="textstructure" include="TEI text body div"/>
@@ -111,6 +112,33 @@
 
         <!-- required module tei instantiates lots of classes used for further expansion of this odd -->
         <moduleRef key="tei"/>
+
+        <constraintSpec xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+          xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
+          xmlns:xsl="http://www.w3.org/1999/XSL/Transform" ident="lb_break"
+          scheme="isoschematron">
+          <constraint>
+            <sch:rule context="tei:lb[not(ancestor::tei:fw)]">
+              <sch:assert test="@break">Un attribut break est
+                obligatoire.</sch:assert>
+            </sch:rule>
+          </constraint>
+        </constraintSpec>
+
+
+        <constraintSpec ident="checks_pb"
+          xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+          xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
+          xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+          scheme="isoschematron">
+          <constraint>
+            <sch:rule context="tei:pb">
+              <sch:assert test="matches(@n, '\d+[vr]')">Something is wrong with the foliation of
+                this page. Have you forgotten the page side indication
+                ?</sch:assert>
+            </sch:rule>
+          </constraint>
+        </constraintSpec>
 
         <elementSpec ident="note" mode="change">
           <attList>

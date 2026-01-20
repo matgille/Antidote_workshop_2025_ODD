@@ -24,7 +24,7 @@
       </fileDesc>
    </teiHeader>
    <!-- Steps: 
-   1. Using ROMA, create an ODD adapted to this particular document. Get rid of any module / element that is not needed.
+   1. Using ROMA, create an ODD adapted to this particular document. Get rid of any module / element that is not needed. I recommend using the
    2. Transform the ODD into a RNG/RNC schema and test the file against this schema.
    3. Fine-tune your ODD directly in the file: 
          a. the divisions must be typed and numbered. Division types values should be a closed list.
@@ -32,7 +32,8 @@
          c. Find one element to constrain at attribute level. 
    4. Optional. Create a small mockup documentation in your ODD, and transform it into HTML.
    NB: feel free to use your own material if you prefer. In this case, choose 3 rules you want to implement,
-   and create a small documentation of your encoding principles.
+   and create a small documentation of your encoding principles. The structure of this documentation is (at least its main components) in the ODD 
+   produced by ROMA. 
    -->
    <text>
       <body>

@@ -114,7 +114,16 @@
 
         <elementSpec ident="note" mode="change">
           <attList>
-            <attDef ident="type" mode="change" usage="req"/>
+            <attDef ident="type" mode="change" usage="req">
+              <valList type="closed">
+                <valItem ident="value_1">
+                  <desc>Description for value 1</desc>
+                </valItem>
+                <valItem ident="value_2">
+                  <desc>Description for value 2</desc>
+                </valItem>
+              </valList>
+            </attDef>
           </attList>
         </elementSpec>
 
